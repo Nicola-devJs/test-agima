@@ -1,0 +1,32 @@
+.upload__container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.upload__container input {
+  pointer-events: none;
+  position: absolute;
+  opacity: 0;
+}
+
+.upload__container label {
+  font-size: 22px;
+}
+
+.upload__container label.disabled {
+  color: #6f6f6f;
+}
+
+.upload__container input:valid + label {
+  color: var(--c-green);
+}
+
+.upload__container span {
+  width: 16px;
+  height: 16px;
+}
+.upload__container span img {
+  width: inherit;
+  height: inherit;
+}

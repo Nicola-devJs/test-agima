@@ -1,0 +1,32 @@
+.form__container {
+  border-radius: 10px;
+  background-color: var(--c-white);
+  padding: 17px 46px 40px;
+  height: max-content;
+}
+
+.form__title {
+  margin-bottom: 56px;
+}
+
+.form > .input__container {
+  margin-bottom: 32px;
+}
+
+.form > .textarea__container {
+  margin-bottom: 8px;
+}
+
+.form > .upload__container {
+  margin-bottom: 60px;
+}
+
+.form__footer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form__footer button {
+  flex-grow: 1;
+}

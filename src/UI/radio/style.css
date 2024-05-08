@@ -1,0 +1,46 @@
+.radio-button__container {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.radio-button__container input {
+  pointer-events: none;
+  position: absolute;
+  opacity: 0;
+}
+
+.radio-button__container .radio-button__custom {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid var(--c-green);
+  background-color: var(--c-white);
+}
+
+.radio-button__container input:checked + .radio-button__custom::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: var(--c-green);
+}
+
+.radio-button__container label {
+  font-size: 16px;
+  text-align: center;
+}
+
+.radio-button__container label a {
+  text-decoration: none;
+  color: var(--c-green);
+}
+
+.radio-button__container label a:hover {
+  text-decoration: underline;
+}

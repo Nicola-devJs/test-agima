@@ -1,0 +1,16 @@
+.instruction {
+  padding-left: 20px;
+}
+
+.instruction__title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.instruction__list-item h3 {
+  margin-bottom: 16px;
+}
+
+.instruction__list-item {
+  margin-bottom: 40px;
+}

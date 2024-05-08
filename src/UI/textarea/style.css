@@ -1,0 +1,49 @@
+.textarea__container {
+  width: 100%;
+  position: relative;
+}
+
+.textarea__container label {
+  font-size: 22px;
+  position: absolute;
+  left: 17px;
+  top: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.textarea__container textarea {
+  width: 100%;
+  padding: 17px;
+
+  border: 1px solid #000;
+  border-radius: 10px;
+  resize: none;
+  overflow-y: auto;
+}
+
+.textarea__container textarea:focus {
+  outline: none;
+}
+
+.textarea__container textarea:focus + label {
+  color: #05ac6a;
+}
+
+.textarea__container textarea:focus + label {
+  font-size: 17px;
+  left: 5px;
+  top: -8px;
+  background-color: #fff;
+  padding: 0 5px;
+}
+.textarea__container textarea:valid + label {
+  opacity: 0;
+}
+
+.textarea__container.disabled textarea {
+  background-color: #ececec;
+}
+
+.textarea__container.disabled label {
+  opacity: 0;
+}

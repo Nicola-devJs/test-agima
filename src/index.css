@@ -1,0 +1,25 @@
+:root {
+  --c-green: #05ac6a;
+  --c-black: #000000;
+  --c-white: #ffffff;
+  --с-light-brown: #6f6f6f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  font-size: 17px;
+  color: var(--c-black);
+  font-weight: 600;
+}
+
+input,
+textarea {
+  font-size: 17px;
+  color: var(--c-black);
+}
